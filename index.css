@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+  }
+
+.header {
+    width: 40%;
+    height: 5rem;
+    background-color: blue;
+    margin: 2%;
+}
+
+.contenido{
+    width: 42%;
+    height: 20rem;
+    background-color: white;
+    margin: 1%;
+}
+
+.section {
+    width: 75%;
+    height: 20rem;
+    background-color: green;
+    float:right;
+    margin: 2%;
+    display: flex;
+}
+
+.aside {
+    width: 17%;
+    height: 20rem;
+    background-color: red;
+    float: left;
+    margin: 2%;
+}
+
+.footer {
+    width: 40%;
+    height: 10rem;
+    background-color: purple;
+    margin: 2%;
+
+}
+
+.section div{
+  width: 30%;
+  height: 13rem;
+  background-color: orange;
+  margin: 1.5%;
+}
